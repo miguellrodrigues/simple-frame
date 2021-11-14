@@ -1,5 +1,3 @@
-import numpy as np
-
 from lib.frame import Frame, FrameDrawer
 
 f0 = Frame(0, 0, 0)
