@@ -183,7 +183,7 @@ class FrameDrawer:
     
     self.fig = plt.figure()
     self.ax = self.fig.add_subplot(111, projection='3d')
-    self.ax.view_init(azim=-40, elev=70)
+    self.ax.view_init(azim=-100, elev=30)
     self.ax.set_axis_off()
     
     self.update = update_func
