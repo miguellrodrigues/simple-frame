@@ -193,7 +193,7 @@ class FrameDrawer:
     if self.update:
       ani = animation.FuncAnimation(self.fig, self.animate, 200, interval=1, blit=False)
       if save_animation:
-        ani.save('animation.gif', fps=60, dpi=300)
+        ani.save('animation.mp4', fps=60, dpi=300)
     
     plt.show()
   
